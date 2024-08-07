@@ -1,0 +1,27 @@
+.searchForm {
+  display: flex;
+  margin-bottom: 20px;
+  width: 450px;
+}
+
+.inputField {
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+  width: 3000px;
+}
+
+.submitButton {
+  padding: 8px 16px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+}
+.submitButton:hover {
+  background-color: rgb(132, 12, 245);
+}

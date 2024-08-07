@@ -1,0 +1,66 @@
+.marginTop {
+  margin-top: auto;
+  color: aliceblue;
+}
+.footer {
+  /* footer */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 160px;
+  margin-top: auto;
+  position: relative;
+  width: auto;
+  height: auto;
+
+  /* Gray/950 */
+  background-color: #151b28;
+}
+.logodiv {
+  align-self: stretch;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.footernav {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+  padding: 32px 0px;
+  gap: 120px;
+  flex: none;
+  order: 1px;
+  flex-grow: 0;
+  align-self: auto;
+}
+
+.socialmedia {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  padding: auto;
+}
+
+.navlinks {
+  text-decoration: none;
+}
+.navlinks:hover {
+  text-decoration: underline;
+}
+.nobullets {
+  list-style-type: none;
+}
+.new {
+  padding: 8px;
+  align-self: center;
+  display: flex;
+  width: 500px;
+  align-items: stretch;
+  width: auto;
+  gap: 20px;
+  align-items: center;
+}
